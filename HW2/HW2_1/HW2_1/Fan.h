@@ -1,4 +1,6 @@
 #pragma once
+
+/*  ---Joseph---  Remember to include header definition guards. This will be very important in larger projects where the same header file will be included in multiple files. (-1)*/
 class Fan
 {
 

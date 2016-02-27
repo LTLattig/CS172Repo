@@ -31,7 +31,7 @@ int main()
 	cout << "Fan 2: \n";
 	cout << "Fan Speed: " << Fan2.showSpeed() << endl;
 
-	Fan1.showState();
+	Fan1.showState();																	/*  ---Joseph---  Watchout for object names. Probablly should've been:  Fan2.showState();   */
 	cout << endl;
 
 	cout << "Fan Radius: " << Fan2.showRadius() << endl << endl;
