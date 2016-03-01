@@ -1,0 +1,40 @@
+/* 
+-----Rubric-----
+(From the Syllabus)
+
+25%	Problem Analysis: 
+	Did your solution show that you had a good, general understanding of the problem, 
+	whether your execution of your solution worked or not?
+	
+50%	Execution and results: 
+	Did your solution and its implementation work as specified in the assignment?
+	
+15%	Quality and maintainability: 
+	Did you design your project using good programming practices as discussed in class and in your textbook?
+	
+10%	Efficiency and creativity: 
+	Was your solution not just functional, but elegant, both in terms of efficiency and how the project highlighted your creative genius?
+
+
+
+EX02_01:
+		UML=========== Couldn't find UML
+		Fan Object==== -1
+		Test Program== 
+EX02_02:
+		UML=========== Couldn't find UML
+		Object======== 
+		Test Program== 
+EX02_03: 
+		UML=========== Couldn't find UML
+		Object======== 
+		Test Program== 
+*/
+
+
+/* 
+Notes:
+- Nice comments
+- Couldn't find UML diagrams.
+
+*/

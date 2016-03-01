@@ -1,5 +1,5 @@
 #pragma once
-
+/*   ---Joseph--- Remember to include header definition guards. */
 class QuadraticEquation
 {
 	
