@@ -18,15 +18,15 @@
 
 
 EX02_01:
-		UML=========== Couldn't find UML
+		UML===========
 		Fan Object==== -1
 		Test Program== 
 EX02_02:
-		UML=========== Couldn't find UML
+		UML=========== 
 		Object======== 
 		Test Program== 
 EX02_03: 
-		UML=========== Couldn't find UML
+		UML=========== 
 		Object======== 
 		Test Program== 
 */
@@ -35,6 +35,5 @@ EX02_03:
 /* 
 Notes:
 - Nice comments
-- Couldn't find UML diagrams.
 
 */
