@@ -59,7 +59,7 @@ double RegularPolygon::getPerimeter() const // returns perimeter
 	return n * side;
 }
 
-double RegularPolygon::getArea() const // calculates area of given polygon (not very accurate, considering specified pi)
+double RegularPolygon::getArea() const // calculates area of given polygon 
 {
-	return ((n * pow(side, 2)) / (4 * (PI / n))); // that said, it returns the same answer as when I calculated it manually, so it seems to be working as specified
+	return (((n * pow(side, 2))) / (4 * tan(PI / n))); 
 }
