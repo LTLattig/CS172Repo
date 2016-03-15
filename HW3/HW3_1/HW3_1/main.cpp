@@ -1,6 +1,7 @@
 /*
 Name: Luke Lattig
 10.5
+See palinFxns.cpp for the functions, felt it was getting kinda messy.
 */
 
 #include <iostream>

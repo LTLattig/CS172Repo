@@ -5,7 +5,7 @@
 using std::string;
 
 
-string getWord()
+string getWord() // retrieves a word to check for palindromes
 {
 	string word;
 
@@ -17,16 +17,16 @@ string getWord()
 
 bool checkPalindrome(string input)
 {
-	int stringSize = input.length();
+	int stringSize = input.length(); // obtains number of characters in the word
 
-	//try using stacks? http://stackoverflow.com/questions/8247793/converting-stdstring-to-stdvectorchar
-	std::vector<char> palinCheck(input.begin(), input.end());
-	std::vector<char> reverseInput(stringSize);
+	
+	std::vector<char> palinCheck(input.begin(), input.end()); // places individual characters of the word in an array
+	std::vector<char> reverseInput(stringSize); // initializes an array with stringSize spots(it's the technical term) allocated
 	
 
-	for (int i = 0; i < stringSize; i++)
+	for (int i = 0; i < stringSize; i++) // ensures case independency by making every alphabetic input lower-case. Also bars special characters (%, ., _, etc.)
 	{
-		if (palinCheck[i] > 64 && palinCheck[i] < 91)
+		if (palinCheck[i] > 64 && palinCheck[i] < 91) 
 			palinCheck[i] = palinCheck[i] + 32;
 
 		else if (palinCheck[i] < 48 ||
@@ -41,17 +41,17 @@ bool checkPalindrome(string input)
 		// std::cout << palinCheck[i]; // a quality test
 	}
 
-	for (int i = stringSize; i > 0; i--)
+	for (int i = stringSize; i > 0; i--) // sets the values of reverseInput to the reverse of palinCheck
 	{
 		reverseInput[stringSize - i] = palinCheck[i - 1];
 	}
 
-	if (reverseInput == palinCheck)
+	if (reverseInput == palinCheck) // if input is a palindrome, returns true + displays message. 
 	{
 		std::cout << input << " is a palindrome.\n";
 		return true;
 	}
-	else
+	else // if input is not a palindrome, returns false + displays message. 
 	{
 		std::cout << input << " is not a palindrome.\n";
 		return false;
