@@ -19,10 +19,10 @@ public:
 	RegularPolygon(int n, double side, double x, double y);
 
 //———————————————Accessor Functions———————>
-/**/int getN() { return n; }
-/**/double getSide() { return side; }
-/**/double getX() { return x; }
-/**/double getY() { return y; }
+/**/const int getN() { return n; }
+/**/const double getSide() { return side; }
+/**/const double getX() { return x; }
+/**/const double getY() { return y; }
 /**////——————————Perim+Area————————————>
 	double getPerimeter() const;
 	double getArea() const;

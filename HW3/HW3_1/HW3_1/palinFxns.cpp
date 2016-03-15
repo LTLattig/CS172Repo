@@ -19,10 +19,8 @@ bool checkPalindrome(string input)
 {
 	int stringSize = input.length(); // obtains number of characters in the word
 
-	
 	std::vector<char> palinCheck(input.begin(), input.end()); // places individual characters of the word in an array
 	std::vector<char> reverseInput(stringSize); // initializes an array with stringSize spots(it's the technical term) allocated
-	
 
 	for (int i = 0; i < stringSize; i++) // ensures case independency by making every alphabetic input lower-case. Also bars special characters (%, ., _, etc.)
 	{
@@ -37,8 +35,6 @@ bool checkPalindrome(string input)
 			std::cout << "Please only use a-z, A-Z, & 0-9.\n";
 			return false;
 		}
-
-		// std::cout << palinCheck[i]; // a quality test
 	}
 
 	for (int i = stringSize; i > 0; i--) // sets the values of reverseInput to the reverse of palinCheck
@@ -55,7 +51,6 @@ bool checkPalindrome(string input)
 	{
 		std::cout << input << " is not a palindrome.\n";
 		return false;
-	}
-	
+	}	
 }
 
