@@ -1,3 +1,7 @@
+/*
+Luke Lattig
+CS172 || HW 5_4
+*/
 #include <iostream>
 #include "Rectangle2D.h"
 

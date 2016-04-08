@@ -1,3 +1,7 @@
+/*
+Luke Lattig
+CS172 || HW 5_4
+*/
 #pragma once
 #ifndef _RECTANGLE2D_
 #define _RECTANGLE2D_

@@ -1,3 +1,7 @@
+/*
+Luke Lattig
+CS172 || HW 5_4
+*/
 #include "Rectangle2D.h"
 
 
@@ -43,3 +47,5 @@ bool Rectangle2D::overlaps(const Rectangle2D &r)
 
 	return false;
 }
+
+// confirmed formatting ruined.
