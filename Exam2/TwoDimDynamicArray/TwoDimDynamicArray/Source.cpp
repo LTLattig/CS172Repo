@@ -75,17 +75,21 @@ int** fillArray(unsigned int numRows, unsigned int numCols)
 	//Dynamically allocate an array of pointers to ints. Hint: You can dynamically
 	//allocate the array by saying you want a new int*[<size>], where
 	//<size> is the number of rows in this case.
-										//<=== PUT YOUR CODE HERE!
+
+	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+	My2DArray = new int*[numRows];				//<=== PUT YOUR CODE HERE!   //
+	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
 	
-	My2DArray = new int* [numRows];
 
 	//Allocates an array of integers to each row. (This creates the columns!)
 	//You fill in the blanks.
 	for (int i = 0; i < numRows; i++) {
 		//Under this comment put a line of code to 1) allocate the array of ints
 		//and 2) assign it to the current row of your array.
-										//<=== PUT YOUR CODE HERE!
-		My2DArray[i] = new int[numCols];
+
+		//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+		My2DArray[i] = new int[numCols];		//<=== PUT YOUR CODE HERE!       //
+		//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
 
 		//The code below reads a number into each location in the 2D array.
 		for (int j = 0; j < numCols; j++) {
@@ -108,10 +112,12 @@ void deleteArray(int** A, int size)
 	//then you can delete the whole.
 	//YOUR CODE GOES HERE
 
-	for (int i = 0; i < size; i++)
-		delete[] A[i];
-
-	delete[] A;
+	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+	for (int i = 0; i < size; i++)											 //
+		delete[] A[i];														 //
+																			 //
+	delete[] A;                                                              //
+	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
 
 	// personal note: This was beyond underwhelming. I'm not sure whether to be grateful or angry.
 }
