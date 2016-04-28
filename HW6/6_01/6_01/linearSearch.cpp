@@ -31,6 +31,7 @@ int linearSearch(const T list[], T key, int arraySize)
 	{
 		if (key == list[i])
 			return i + 1; // added one to reflect the relative position of the value that matches the key more intuitively.
+		// Joseph: Ok, but the reason for this function in general is to find and return the index of the item so that you can use it in other code.
 	}
 	return -1;
 }

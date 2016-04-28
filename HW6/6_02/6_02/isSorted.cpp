@@ -22,6 +22,8 @@ int main()
 
 // I'm taking "sorted" to mean "in rising order." No idea whether this is what is meant, 
 // but the book isn't giving me much to go on here. 
+
+// Joseph: I think this is a good assumption
 template<typename T>
 bool isSorted(const T list[], int size) 
 {

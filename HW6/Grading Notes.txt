@@ -1,0 +1,7 @@
+EX06_01: Great job. Just one comment. See code.
+EX06_02: Nice work
+EX06_03: No UML, But the rest looks good
+EX06_04: Great work
+
+Extra Credit
+EX06_05: None
